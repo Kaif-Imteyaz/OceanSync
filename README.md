@@ -1,6 +1,5 @@
 # OceanSync Data Pipeline
 
-## Project Overview
 OceanSync is an automated data pipeline for synchronizing oceanographic data from multiple authoritative sources into a unified, standardized format. The system collects, processes, and stores data from NOAA, Copernicus Marine, Argo floats, and NCEI with comprehensive error handling and logging capabilities.
 
 ## Features
@@ -73,6 +72,9 @@ OceanSync/
 ├── .env.example              # Environment template
 └── README.md                 # Documentation
 ```
+
+## Flow DIagram
+![Flow Diagram](OceanSync.drawio.svg)
 
 ## Installation
 
@@ -247,3 +249,4 @@ Current version: 1.0.0
 
 
 ---
+
